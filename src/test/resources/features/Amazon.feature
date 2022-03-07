@@ -9,3 +9,4 @@
       And kullanici "321654thomas" kismina sifresini girecek
       And kullanici "321654thomas" kismina tekrardan ayni sifreyi girecek
       Then kullanici Continue butonuna tiklayacak
+      And verifid "Solve this puzzle to protect your account"

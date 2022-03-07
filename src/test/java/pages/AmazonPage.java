@@ -23,5 +23,8 @@ public class AmazonPage extends BasePage{
     @FindBy(id = "continue")
     public WebElement continuex;
 
+    @FindBy (xpath = "//span[text()=\"Solve this puzzle to protect your account\"]")
+    public WebElement userAccecText;
+
 
 }

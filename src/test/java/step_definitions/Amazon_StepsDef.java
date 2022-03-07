@@ -3,6 +3,7 @@ package step_definitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import pages.AmazonPage;
 import utilities.BrowserUtilities;
 import utilities.Driver;
@@ -46,5 +47,10 @@ public class Amazon_StepsDef {
     @Given("kullanici {string} sayfasina erken gider")
     public void kullaniciSayfasinaErkenGider(String webAdres) {
         Driver.getDriver().get(webAdres);
+    }
+
+    @And("verifid {string}")
+    public void verifid(String text) {
+        Assert.assertEquals(amazon.userAccecText.getText(),text);
     }
 }
