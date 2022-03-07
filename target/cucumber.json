@@ -1,0 +1,174 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-07T05:53:57.375Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3061643100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC001 Pozitive test yapilacak",
+        "description": "",
+        "id": "us981-amazon-sitesinde-yeni-hesap-acilacak.;tc001-pozitive-test-yapilacak",
+        "after": [
+          {
+            "result": {
+              "duration": 3010232800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4634520900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"https://www.amazon.com\" sayfasina erken gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.Amazon_StepsDef.kullaniciSayfasinaErkenGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3909586300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici New Customer Star Here butonunu tiklar",
+            "match": {
+              "location": "step_definitions.Amazon_StepsDef.kullaniciNewCustomerStarHereButonunuTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179758400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"Thomas Jeffersonm\" kismina adini yazacak",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thomas Jeffersonm\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.Amazon_StepsDef.kullaniciKisminaAdiniYazacak(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189250900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici \"thomas654qq@gmail.com\" kismina teelfonunu yada email girecek",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"thomas654qq@gmail.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.Amazon_StepsDef.kullaniciKisminaTeelfonunuYadaEmailGirecek(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614036400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici \"321654thomas\" kismina sifresini girecek",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"321654thomas\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.Amazon_StepsDef.kullaniciKisminaSifresiniGirecek(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163164800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici \"321654thomas\" kismina tekrardan ayni sifreyi girecek",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"321654thomas\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.Amazon_StepsDef.kullaniciKisminaTekrardanAyniSifreyiGirecek(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4357727800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici Continue butonuna tiklayacak",
+            "match": {
+              "location": "step_definitions.Amazon_StepsDef.kullaniciContinueButonunaTiklayacak()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "US981_Amazon sitesinde yeni hesap acilacak.",
+    "description": "",
+    "id": "us981-amazon-sitesinde-yeni-hesap-acilacak.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Amazon.feature",
+    "tags": [
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
