@@ -54,7 +54,9 @@ public class Driver {
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        driver.manage().window();
+//        driver.manage().window().maximize();
+
 
 //       Not: Acilack browser'in size'ni belirtmek icin kullaniyoruz. boylelikle
 //       mobile applicationlarida test edebiliriz.
