@@ -2,7 +2,7 @@ package seleniumCourse;
 
 import utilities.Driver;
 
-public class _S7_DriverMethods {
+public class S7_DriverMethods {
 
     public static void main(String[] args) throws InterruptedException {
         /**

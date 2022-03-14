@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.testng.asserts.SoftAssert;
 import utilities.Driver;
 
-public class _S5_Assert {
+public class S5_Assert {
 
     @Test
     public void test1(){

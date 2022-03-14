@@ -9,7 +9,7 @@ import utilities.Driver;
 
 import java.util.concurrent.TimeUnit;
 
-public class _S6_ImplicitWait_ExplicitWait_ThreadSleep {
+public class S6_ImplicitWait_ExplicitWait_ThreadSleep {
 
     @Test
     public void test01() throws InterruptedException {

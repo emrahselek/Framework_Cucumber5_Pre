@@ -1,6 +1,6 @@
 package seleniumCourse;
 
-public class _S1_S2_S3 {
+public class S1_S2_S3 {
 
     /**
      Selenium is testing UI to automation.

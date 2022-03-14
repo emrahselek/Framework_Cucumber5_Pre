@@ -6,7 +6,7 @@ import utilities.Driver;
 
 import java.util.List;
 
-public class _S4_findElement {
+public class S4_findElement {
 
     public static void main(String[] args) {
 
