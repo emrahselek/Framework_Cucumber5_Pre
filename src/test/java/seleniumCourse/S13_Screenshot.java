@@ -21,6 +21,7 @@ public class S13_Screenshot {
 
     public void screenshotX(String isim){
         TakesScreenshot takesScreenshot = (TakesScreenshot) Driver.getDriver(); // Bir nesne olusturduk interface 'den
+
         File kaynak = takesScreenshot.getScreenshotAs(OutputType.FILE);// takescreenshot method sayesinde screen aldikve kendi bunyesine kaydetti
 
         File goruntu = new File(System.getProperty("user.dir") + "/" + isim + ".png");//Bulundugumuz konumda bir klasor actik ve daha sonra screenshot bu dosyaya kaydedecegiz
