@@ -1,4 +1,4 @@
-package seleniumCourse;
+package _CourseSelenium_Hamza;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;

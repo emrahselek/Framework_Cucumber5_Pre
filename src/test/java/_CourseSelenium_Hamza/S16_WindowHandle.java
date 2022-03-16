@@ -1,11 +1,10 @@
-package seleniumCourse;
+package _CourseSelenium_Hamza;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilities.Driver;
 
-import java.util.Objects;
 import java.util.Set;
 
 public class S16_WindowHandle {

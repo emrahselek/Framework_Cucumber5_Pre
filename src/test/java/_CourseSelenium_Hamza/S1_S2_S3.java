@@ -1,4 +1,4 @@
-package seleniumCourse;
+package _CourseSelenium_Hamza;
 
 public class S1_S2_S3 {
 

@@ -1,4 +1,4 @@
-package seleniumCourse;
+package _CourseSelenium_Hamza;
 
 import utilities.Driver;
 
