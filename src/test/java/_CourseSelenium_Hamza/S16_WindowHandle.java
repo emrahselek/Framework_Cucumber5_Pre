@@ -28,8 +28,5 @@ public class S16_WindowHandle {
 
         Driver.getDriver().switchTo().window(sonSayfaninHandleDegeri);
 
-
-
-
     }
 }
